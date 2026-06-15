@@ -38,9 +38,7 @@ export default function OffresPage() {
       {/* Pack test */}
       <section style={{ padding: '0 7% 48px', background: '#fff' }}>
         <div style={{ maxWidth: 900 }}>
-          <div style={{
-            display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 48,
-          }}>
+          <div className="g-cards" style={{ marginBottom: 48 }}>
             {/* Pack test */}
             <div style={{
               border: '1.5px solid #E2E8F0', borderRadius: 16,

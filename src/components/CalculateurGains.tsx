@@ -13,7 +13,7 @@ export default function CalculateurGains() {
 
   return (
     <div style={{ background: '#0F172A', borderRadius: 20, overflow: 'hidden', maxWidth: 860 }}>
-      <div style={{ padding: '36px 44px 28px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+      <div style={{ padding: 'clamp(20px,5%,36px) clamp(16px,5%,44px) 28px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
         <h3 style={{ fontSize: 22, fontWeight: 800, color: '#fff', marginBottom: 8 }}>
           Combien pouvez-vous gagner ?
         </h3>
@@ -22,7 +22,7 @@ export default function CalculateurGains() {
         </p>
       </div>
 
-      <div style={{ padding: '32px 44px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40 }}>
+      <div className="g-calc" style={{ padding: 'clamp(20px,5%,32px) clamp(16px,5%,44px)' }}>
         {/* Curseurs */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
 

@@ -22,7 +22,7 @@ export default function SimulateurLeads() {
     <div style={{ background: '#0F172A', borderRadius: 20, overflow: 'hidden', maxWidth: 860 }}>
 
       {/* En-tête */}
-      <div style={{ padding: '36px 44px 28px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+      <div style={{ padding: 'clamp(20px,5%,36px) clamp(16px,5%,44px) 28px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
         <p style={{ fontSize: 11, color: '#3B82F6', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', marginBottom: 10 }}>
           Simulateur de volume — Leads assurance exclusifs
         </p>
@@ -32,7 +32,7 @@ export default function SimulateurLeads() {
       </div>
 
       {/* Sélecteur budget */}
-      <div style={{ padding: '28px 44px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+      <div style={{ padding: 'clamp(16px,5%,28px) clamp(16px,5%,44px)', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
         <p style={{ fontSize: 12, color: 'rgba(255,255,255,0.4)', fontWeight: 600, marginBottom: 14, letterSpacing: '.05em' }}>
           VOTRE BUDGET MENSUEL
         </p>
@@ -57,7 +57,7 @@ export default function SimulateurLeads() {
       </div>
 
       {/* Résultats */}
-      <div style={{ padding: '32px 44px', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 20 }}>
+      <div className="g-sim" style={{ padding: 'clamp(20px,5%,32px) clamp(16px,5%,44px)' }}>
         <div>
           <p style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', fontWeight: 600, letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 12 }}>Prix par lead</p>
           <p style={{ fontSize: 52, fontWeight: 900, color: '#3B82F6', letterSpacing: '-0.04em', lineHeight: 1, marginBottom: 6 }}>
@@ -87,7 +87,7 @@ export default function SimulateurLeads() {
       </div>
 
       {/* Barre de paliers */}
-      <div style={{ padding: '0 44px 28px', display: 'flex', gap: 6 }}>
+      <div className="g-paliers" style={{ padding: '0 clamp(16px,5%,44px) 28px' }}>
         {[
           { label: 'Standard', seuil: '< 3 000', prix: '35 CHF' },
           { label: 'Intermédiaire', seuil: '3 000+', prix: '30 CHF' },
@@ -113,7 +113,7 @@ export default function SimulateurLeads() {
 
       {/* CTA */}
       <div style={{
-        padding: '24px 44px 36px',
+        padding: 'clamp(16px,5%,24px) clamp(16px,5%,44px) clamp(20px,5%,36px)',
         borderTop: '1px solid rgba(255,255,255,0.07)',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16,
       }}>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <section style={{ padding: '130px 7% 80px', background: '#fff' }}>
-      <div style={{ maxWidth: 1000, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: 64, alignItems: 'start' }}>
+      <div className="g2x" style={{ maxWidth: 1000, margin: '0 auto' }}>
 
         {/* Left */}
         <div>
@@ -54,7 +54,7 @@ export default function ContactPage() {
             method="POST"
             style={{ display: 'flex', flexDirection: 'column', gap: 20 }}
           >
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+            <div className="g-form-name">
               {[{ n: 'prenom', l: 'Prénom', p: 'Marc' }, { n: 'nom', l: 'Nom', p: 'Dupont' }].map(f => (
                 <div key={f.n}>
                   <label style={{ display: 'block', fontSize: 13, fontWeight: 600, color: '#475569', marginBottom: 8 }}>{f.l}</label>

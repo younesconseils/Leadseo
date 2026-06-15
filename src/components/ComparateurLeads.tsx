@@ -89,7 +89,7 @@ export default function ComparateurLeads() {
       </div>
 
       {/* Verdict */}
-      <div style={{ marginTop: 20, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+      <div className="g-verdict" style={{ marginTop: 20 }}>
         <div style={{ background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 12, padding: '18px 22px', display: 'flex', gap: 12, alignItems: 'center' }}>
           <span style={{ fontSize: 28 }}>😤</span>
           <div>
