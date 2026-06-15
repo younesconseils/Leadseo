@@ -179,39 +179,6 @@ export default function HomePage() {
         <IphoneMockup />
       </section>
 
-      {/* ── CLIENTS ──────────────────────────────────────── */}
-      <section style={{ padding: 'clamp(48px,8vw,80px) 5% clamp(48px,8vw,80px)', background: '#fff' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 'clamp(22px,3vw,40px)', fontWeight: 900, color: '#0F172A', letterSpacing: '-0.025em', marginBottom: 8 }}>
-            Ce qu'on a construit avec nos clients.
-          </h2>
-          <p style={{ color: '#64748B', fontSize: 15, maxWidth: 520, marginBottom: 36 }}>
-            Des résultats réels. Des courtiers en assurance en Suisse Romande.
-          </p>
-          <div className="g-cards">
-            {CLIENTS.map((c, i) => (
-              <div key={c.nom} style={{
-                background: i === 0 ? '#0F172A' : '#F8FAFC',
-                border: `1.5px solid ${i === 0 ? 'transparent' : '#E2E8F0'}`,
-                borderRadius: 20, padding: 'clamp(24px,4vw,36px)',
-              }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 20 }}>
-                  <div>
-                    <p style={{ fontSize: 16, fontWeight: 800, color: i === 0 ? '#fff' : '#0F172A', marginBottom: 4 }}>{c.nom}</p>
-                    <p style={{ fontSize: 12, color: i === 0 ? '#64748B' : '#94A3B8' }}>{c.secteur} · {c.lieu}</p>
-                  </div>
-                  <div style={{ textAlign: 'right' }}>
-                    <p style={{ fontSize: 26, fontWeight: 900, color: i === 0 ? '#0EA878' : '#2563EB', letterSpacing: '-0.03em', lineHeight: 1 }}>{c.chiffre}</p>
-                    <p style={{ fontSize: 11, color: i === 0 ? '#475569' : '#94A3B8', marginTop: 2 }}>{c.unite}</p>
-                  </div>
-                </div>
-                <p style={{ fontSize: 14, fontWeight: 700, color: i === 0 ? '#fff' : '#0F172A', marginBottom: 8 }}>{c.resultat}</p>
-                <p style={{ fontSize: 13, color: '#64748B', lineHeight: 1.75 }}>{c.detail}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ── AVANT / APRÈS ────────────────────────────────── */}
       <section style={{ padding: '0 5% clamp(48px,8vw,80px)', background: '#F7F9FC' }}>
