@@ -4,6 +4,7 @@ import IphoneMockup from '@/components/IphoneMockup'
 import ComparateurLeads from '@/components/ComparateurLeads'
 import AnimationTunnel from '@/components/AnimationTunnel'
 import CalculateurGains from '@/components/CalculateurGains'
+import SubsidePopup from '@/components/SubsidePopup'
 
 export const metadata: Metadata = {
   title: 'LeadSEO — Leads exclusifs pour courtiers en Suisse',
@@ -105,7 +106,7 @@ export default function HomePage() {
         }} />
         <div style={{ position: 'relative', zIndex: 2, padding: 'clamp(100px,14vw,140px) 5% 48px', width: '100%' }}>
           <p style={{ fontSize: 11, color: 'rgba(255,255,255,0.45)', fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 20 }}>
-            Leads subside exclusifs · Suisse Romande · Depuis 2021
+            <SubsidePopup>Leads subside exclusifs</SubsidePopup> · Suisse Romande · Depuis 2021
           </p>
           <h1 style={{
             fontSize: 'clamp(32px, 6vw, 72px)',
@@ -119,7 +120,7 @@ export default function HomePage() {
             <span style={{ color: '#3B82F6' }}>pour vendre de l'assurance.</span>
           </h1>
           <p style={{ fontSize: 'clamp(15px, 2vw, 18px)', color: 'rgba(255,255,255,0.72)', lineHeight: 1.65, maxWidth: 540, marginBottom: 32 }}>
-            Des leads subside 100% exclusifs — 25-60 ans, classe moyenne, LAMal chère, ouverts à changer. La porte d'entrée idéale pour signer de l'assurance maladie, complémentaire ou 3e pilier.
+            Des <SubsidePopup>leads subside</SubsidePopup> 100% exclusifs — 25-60 ans, classe moyenne, LAMal chère, ouverts à changer. La porte d'entrée idéale pour signer de l'assurance maladie, complémentaire ou 3e pilier.
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap', marginBottom: 40 }}>
             <Link href="/contact" style={{

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import SimulateurLeads from '@/components/SimulateurLeads'
+import SubsidePopup from '@/components/SubsidePopup'
 
 export const metadata: Metadata = {
   title: 'Offres & Tarifs — Leads subside exclusifs en Suisse',
@@ -26,7 +27,7 @@ export default function OffresPage() {
             fontSize: 'clamp(34px, 4.5vw, 56px)', fontWeight: 900,
             color: '#0F172A', letterSpacing: '-0.03em', lineHeight: 1.05, marginBottom: 20,
           }}>
-            Des leads subside exclusifs.<br />
+            Des <SubsidePopup>leads subside</SubsidePopup> exclusifs.<br />
             Le prix baisse avec le volume.
           </h1>
           <p style={{ fontSize: 17, color: '#475569', lineHeight: 1.75, maxWidth: 580 }}>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import SubsidePopup from '@/components/SubsidePopup'
 
 export const metadata: Metadata = {
   title: 'Commander des leads subside — LeadSEO',
@@ -23,7 +24,7 @@ export default function ContactPage() {
         {/* Left */}
         <div>
           <h1 style={{ fontSize: 'clamp(28px, 3.5vw, 44px)', fontWeight: 900, color: '#0F172A', marginBottom: 16, letterSpacing: '-0.03em', lineHeight: 1.1 }}>
-            Commandez vos leads subside
+            Commandez vos <SubsidePopup>leads subside</SubsidePopup>
           </h1>
           <p style={{ color: '#475569', fontSize: 16, lineHeight: 1.75, marginBottom: 32 }}>
             Décrivez votre activité et votre canton. On vous répond sous 2 heures avec votre premier pack.
