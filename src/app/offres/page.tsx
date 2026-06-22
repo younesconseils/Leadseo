@@ -3,8 +3,8 @@ import Link from 'next/link'
 import SimulateurLeads from '@/components/SimulateurLeads'
 
 export const metadata: Metadata = {
-  title: 'Offres & Tarifs — Leads qualifiés en Suisse',
-  description: 'Pack test à 500 CHF ou volume mensuel avec tarifs dégressifs. Plus vous commandez, moins vous payez par lead. Leads exclusifs, conformité LPD.',
+  title: 'Offres & Tarifs — Leads subside exclusifs en Suisse',
+  description: 'Pack test 25 leads subside à 500 CHF ou volume mensuel dégressif. Profil qualifié : 25-60 ans, classe moyenne, LAMal chère. Exclusifs, conformité LPD.',
 }
 
 const FAQ = [
@@ -26,11 +26,11 @@ export default function OffresPage() {
             fontSize: 'clamp(34px, 4.5vw, 56px)', fontWeight: 900,
             color: '#0F172A', letterSpacing: '-0.03em', lineHeight: 1.05, marginBottom: 20,
           }}>
-            Le prix par lead baisse<br />
-            avec votre volume.
+            Des leads subside exclusifs.<br />
+            Le prix baisse avec le volume.
           </h1>
           <p style={{ fontSize: 17, color: '#475569', lineHeight: 1.75, maxWidth: 580 }}>
-            Commencez par tester la qualité avec 10 leads. Quand vous êtes convaincu, montez en volume — et votre coût par acquisition baisse automatiquement.
+            Testez la qualité avec 25 leads à 500 CHF. Quand vous signez vos premiers contrats, montez en volume — le prix par lead baisse automatiquement.
           </p>
         </div>
       </section>
@@ -49,13 +49,13 @@ export default function OffresPage() {
                 <span style={{ fontSize: 52, fontWeight: 900, color: '#0F172A', letterSpacing: '-0.04em', lineHeight: 1 }}>500</span>
                 <span style={{ fontSize: 16, color: '#64748B' }}>CHF</span>
               </div>
-              <p style={{ fontSize: 14, color: '#94A3B8', marginBottom: 24 }}>10 leads exclusifs pour valider la qualité sur votre secteur</p>
+              <p style={{ fontSize: 14, color: '#94A3B8', marginBottom: 24 }}>25 leads subside exclusifs pour valider la qualité</p>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 28px', display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {[
-                  '10 leads 100% exclusifs',
-                  'Livraison sous 2h par email',
-                  'Nom, prénom, tél, email + contexte',
-                  'Numéro vérifié, intention confirmée',
+                  '25 leads subside 100% exclusifs',
+                  'Profil : 25-60 ans, 4 000 CHF+/mois, LAMal chère',
+                  'Nom, prénom, tél, prime actuelle + canton',
+                  'Numéro suisse vérifié, prospect joignable',
                   'Remplacement garanti si non conforme',
                 ].map(f => (
                   <li key={f} style={{ display: 'flex', gap: 10, fontSize: 14, color: '#475569' }}>
@@ -82,7 +82,7 @@ export default function OffresPage() {
                 <span style={{ fontSize: 52, fontWeight: 900, color: '#0F172A', letterSpacing: '-0.04em', lineHeight: 1 }}>35</span>
                 <span style={{ fontSize: 16, color: '#64748B' }}>CHF / lead</span>
               </div>
-              <p style={{ fontSize: 14, color: '#94A3B8', marginBottom: 24 }}>Tarif standard · baisse automatiquement avec votre budget</p>
+              <p style={{ fontSize: 14, color: '#94A3B8', marginBottom: 24 }}>Leads subside qualifiés · prix dégressif selon volume</p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginBottom: 28 }}>
                 {[
@@ -155,7 +155,7 @@ export default function OffresPage() {
           Prêt à tester ?
         </h2>
         <p style={{ color: '#64748B', fontSize: 16, marginBottom: 32 }}>
-          Pack test à 500 CHF · 10 leads exclusifs · Réponse sous 2h
+          Pack test à 500 CHF · 25 leads subside exclusifs · Réponse sous 2h
         </p>
         <Link href="/contact" style={{
           background: '#2563EB', color: '#fff',

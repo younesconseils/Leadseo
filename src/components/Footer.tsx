@@ -16,7 +16,7 @@ export default function Footer() {
               Lead<span style={{ color: '#3B82F6' }}>SEO</span>
             </span>
             <p style={{ color: '#64748B', fontSize: 14, lineHeight: 1.75, maxWidth: 260 }}>
-              Leads en assurance qualifiés et exclusifs pour les courtiers en Suisse Romande.
+              Leads subside exclusifs pour courtiers en assurance — Suisse Romande.
             </p>
           </div>
 

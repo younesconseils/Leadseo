@@ -57,34 +57,34 @@ const CLIENTS = [
 
 const DOULEURS = [
   {
-    avant: '❌ Avant LeadSEO',
+    avant: '❌ Sans leads subside qualifiés',
     items: [
       'Vous prospectez à froid toute la journée',
-      'Vous partagez les mêmes leads que 10 concurrents',
-      'Vous perdez 3h à appeler des numéros qui ne répondent pas',
+      'Les leads sont revendus à 5-10 courtiers en même temps',
+      'Le prospect est déjà épuisé avant votre appel',
       'Votre agenda est vide la moitié du mois',
-      'Vos revenus stagnent depuis des années',
+      'Vous perdez du temps sur des profils non éligibles',
     ],
     bg: '#FEF2F2', border: '#FECACA', titleColor: '#DC2626',
   },
   {
     avant: '✅ Avec LeadSEO',
     items: [
-      'Un prospect vous attend — il a demandé à être rappelé',
-      'Ce lead est 100% à vous. Personne d\'autre ne l\'appelle',
-      'Chaque lead est vérifié. Numéro valide, projet réel',
-      'Votre agenda affiche 7 RDV dès lundi matin',
-      '+38% de commissions en moyenne après 3 mois',
+      '25-60 ans, classe moyenne, 4 000 CHF+/mois — profil idéal',
+      'LAMal chère, pas de complémentaire — 3 produits à vendre',
+      '100% exclusif — vous êtes le seul à l\'appeler',
+      'Numéro vérifié, prospect joignable et ouvert',
+      'Porte d\'entrée pour LAMal, complémentaire et 3e pilier',
     ],
     bg: '#F0FDF4', border: '#BBF7D0', titleColor: '#16A34A',
   },
 ]
 
 const STEPS = [
-  { n: '01', title: 'Vous nous décrivez votre client idéal', desc: 'Canton, type d\'assurance, profil. 10 minutes de briefing. On fait le reste.' },
-  { n: '02', title: 'On active vos campagnes digitales', desc: 'Nos campagnes captent des prospects qui cherchent activement ce que vous vendez.' },
-  { n: '03', title: 'Chaque lead est qualifié à la main', desc: 'Numéro vérifié, projet confirmé, profil correspondant à vos critères.' },
-  { n: '04', title: 'Le lead arrive sur votre téléphone', desc: 'En moins de 2h. Nom, prénom, numéro, contexte. Il n\'attend que votre appel.' },
+  { n: '01', title: 'Vous commandez votre pack', desc: 'Pack test 25 leads à 500 CHF ou volume mensuel. Aucun engagement.' },
+  { n: '02', title: 'On qualifie chaque prospect', desc: 'Âge, revenu, prime actuelle, éligibilité subside. Seuls les bons profils passent.' },
+  { n: '03', title: 'Numéro vérifié, prospect contactable', desc: 'Numéro suisse valide, prospect informé qu\'un courtier va l\'appeler.' },
+  { n: '04', title: 'Le lead arrive dans votre boîte', desc: 'En moins de 2h. Nom, prénom, numéro, prime actuelle, canton. Vous appelez.' },
 ]
 
 export default function HomePage() {
@@ -105,7 +105,7 @@ export default function HomePage() {
         }} />
         <div style={{ position: 'relative', zIndex: 2, padding: 'clamp(100px,14vw,140px) 5% 48px', width: '100%' }}>
           <p style={{ fontSize: 11, color: 'rgba(255,255,255,0.45)', fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 20 }}>
-            Leads assurance exclusifs · Suisse Romande · Depuis 2021
+            Leads subside exclusifs · Suisse Romande · Depuis 2021
           </p>
           <h1 style={{
             fontSize: 'clamp(32px, 6vw, 72px)',
@@ -115,11 +115,11 @@ export default function HomePage() {
             maxWidth: 780,
             marginBottom: 20,
           }}>
-            Votre prochain client<br />
-            <span style={{ color: '#3B82F6' }}>vous attend déjà.</span>
+            La meilleure porte d'entrée<br />
+            <span style={{ color: '#3B82F6' }}>pour vendre de l'assurance.</span>
           </h1>
-          <p style={{ fontSize: 'clamp(15px, 2vw, 18px)', color: 'rgba(255,255,255,0.72)', lineHeight: 1.65, maxWidth: 520, marginBottom: 32 }}>
-            Des prospects qui cherchent une assurance en Suisse Romande — livrés dans votre boîte mail en moins de 2h. Réservés pour vous seul.
+          <p style={{ fontSize: 'clamp(15px, 2vw, 18px)', color: 'rgba(255,255,255,0.72)', lineHeight: 1.65, maxWidth: 540, marginBottom: 32 }}>
+            Des leads subside 100% exclusifs — 25-60 ans, classe moyenne, LAMal chère, ouverts à changer. La porte d'entrée idéale pour signer de l'assurance maladie, complémentaire ou 3e pilier.
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap', marginBottom: 40 }}>
             <Link href="/contact" style={{

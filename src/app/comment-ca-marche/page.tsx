@@ -43,7 +43,7 @@ export default function CommentCaMarchePage() {
             fontSize: 'clamp(34px, 4.5vw, 56px)', fontWeight: 900,
             color: '#0F172A', letterSpacing: '-0.03em', lineHeight: 1.05, marginBottom: 20,
           }}>
-            De zéro à votre premier lead<br />en moins de 48h.
+            Votre premier lead subside<br />livré en moins de 48h.
           </h1>
           <p style={{ color: '#475569', fontSize: 17, lineHeight: 1.75, maxWidth: 560 }}>
             Un processus simple, transparent, en 4 étapes. De votre briefing à la réception du premier contact qualifié.
