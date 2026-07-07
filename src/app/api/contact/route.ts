@@ -146,7 +146,7 @@ export async function POST(req: Request) {
 
     <p style="margin:0 0 24px;font-size:14px;color:#475569;line-height:1.7;">Une question ? Réponds directement à cet email ou appelle-nous.</p>
 
-    <p style="margin:0;font-size:14px;color:#374151;line-height:1.8;">À tout de suite,<br/><strong style="color:#0F172A;">Younes El Habchi</strong><br/><span style="color:#64748B;">LeadSEO &nbsp;·&nbsp; +41 78 343 76 00</span></p>
+    <p style="margin:0;font-size:14px;color:#374151;line-height:1.8;">À tout de suite,<br/><strong style="color:#0F172A;">L'équipe LeadSEO</strong><br/><span style="color:#64748B;">+41 78 343 76 00</span></p>
 
   </td></tr>
 
